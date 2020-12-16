@@ -1,0 +1,29 @@
+body{
+    height: 100%;
+}
+body > h1 {
+    text-align: center;
+}
+main {
+    display: flex;
+    
+    justify-content: center;
+    height: 100%;
+}
+body > main > textarea {
+    width: 45vw;
+    height: 85vh;
+    border: 2px solid black; 
+}
+body > main > div.preview{
+    width: 542px;
+    height: 646px;
+    border: 2px solid black;
+}
+.button {
+    display: flex;
+  
+   
+    align-items: center;
+    padding: 10px;
+}
